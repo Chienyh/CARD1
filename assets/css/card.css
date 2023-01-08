@@ -1,0 +1,15 @@
+* { padding: 0;box-sizing: border-box; }
+body { display: flex;
+align-items: center;justify-content: center;background-color: antiquewhite;}
+.amazing { display: flex;flex-direction: column;height: 450px;width: 350px; background-color: aliceblue;border-radius:7px;}
+.header { display: flex;flex-direction: row;height: 50px;align-items: center;}
+.avatar {height: 50px;width: 70px;border-radius: 50%;}
+.img1 {height: 200px;}
+.footer {height: 170px;display: flex;flex-direction: column;}
+.icon {  height: 50px;display: flex;flex-direction: row;justify-content: space-between;align-items: flex-end;}
+.reco { font-size: 16.5px; margin-left: 10px;margin-top: 10px;height: 120px;margin-right: 10px;}
+.icons { width: 90px; text-align: center;}
+.atitle {text-align: left;width: 250px;}
+img { object-fit: cover;
+    object-position: center;
+}
